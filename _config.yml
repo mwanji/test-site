@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: .
+destination: ./_site
+sass:
+  sass_dir: ./_sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+# SEO settings
+title: Moandji Ezana
+description: "Moandji Ezana"
+keywords: ""
+
+# Site settings
+url: http://moandjiezana.com
+baseurl: ""
+
+# Author settings
+author:
+  name      : Moandji Ezana
+  job       : Software Developer
+  bio       : "Loves to help small businesses find or create the software that fits them perfectly."
+  thumb     : /images/author.jpg
+  email     : moandji@ezana.net
+  url       : http://moandjiezana.com
+  facebook  : https://www.facebook.com/mwanji
+  github    : http://github.com/mwanji
+  twitter   : http://twitter.com/mwanji
+  linkedin  : http://linkedin.com/in/moandjiezana
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/mwanji/moandjiezana.com
+
+# comments
+#disqus_shortname: "fernandomoreira"
