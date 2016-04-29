@@ -3,7 +3,7 @@ layout: post
 title: "The Orderbook.biz Story"
 permalink: "orderbook"
 date: 2016-03-27 20:08:35 -0200
-og_description=The origin story of orderbook.biz, which I created for small South African businesses
+og_description: "The origin story of orderbook.biz, which I created for small South African businesses"
 ---
 
 In September 2014, Quinten, a business owner in Mtunzini, South Africa, had an admin problem. He was building a new commercial and residential complex in the centre of town. The various contractors involved generated a deluge of orders for bricks, cement and all kinds of building materials and Quinten had to approve and pay for them all. That might not have been so bad, but these orders were recorded solely on paper. This made it very difficult to track what was going on: which orders had been placed, who had approved them, whether they’d been paid and how much had been spent in total. So he asked me to develop some software for him.

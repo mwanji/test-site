@@ -3,7 +3,7 @@ layout: post
 title: "How I Started Programming"
 permalink: "programming"
 date: 2016-04-12
-og_description=The story of how I started programming
+og_description: "The story of how I started programming"
 ---
 
 The thing you should know about me is that I'm not a real computer programmer.
