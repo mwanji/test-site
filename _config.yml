@@ -23,7 +23,7 @@ keywords: ""
 
 # Site settings
 url: http://moandjiezana.com
-baseurl: ""
+baseurl: "/test-site/"
 
 # Author settings
 author:
