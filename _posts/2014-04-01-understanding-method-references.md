@@ -1,7 +1,7 @@
 ---
 title: "Understanding Java 8 Method References"
 layout: post
-og_description=Method references aren't quite what they appear to be
+og_description: "Method references aren't quite what they appear to be"
 ---
 
 Method references are a nice facility in Java 8. They can make code very concise and expressive. However, there are a few things to understand about them: they are merely a shorthand for lambdas and they are desugared in a specific way.

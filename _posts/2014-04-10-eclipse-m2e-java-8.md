@@ -1,8 +1,8 @@
 ---
 title: "Using Java 8 with Eclipse and m2e"
 layout: post
-og_description=How to get Java 8 and Maven to work in Eclipse 4.3 and 4.4
-og_image=/img/2014/eclipse-m2e-java-8/luna.png
+og_description: "How to get Java 8 and Maven to work in Eclipse 4.3 and 4.4"
+og_image: "/img/2014/eclipse-m2e-java-8/luna.png"
 ---
 
 Eclipse is as confusing as ever. And the splash screens aren't getting any better...
