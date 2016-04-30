@@ -1,7 +1,7 @@
 ---
 title: "Get Your Life And Business Online"
 layout: post
-permalink: "/get-online"
+permalink: "/get-online/index.html"
 series: "Get Online"
 og_description: "A series of guides to taking control of your online life"
 ---
