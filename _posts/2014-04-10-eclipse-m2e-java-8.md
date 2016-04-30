@@ -7,7 +7,7 @@ og_image: "/img/2014/eclipse-m2e-java-8/luna.png"
 
 Eclipse is as confusing as ever. And the splash screens aren't getting any better...
 
-![Kepler splash screen]({{site.baseurl}}/img/2014/eclipse-m2e-java-8/kepler.png "Kepler splash screen")![Luna splash screen](/img/2014/eclipse-m2e-java-8/luna.png "Luna splash screen")
+![Kepler splash screen]({{site.baseurl}}/img/2014/eclipse-m2e-java-8/kepler.png "Kepler splash screen")![Luna splash screen]({{site.baseurl}}/img/2014/eclipse-m2e-java-8/luna.png "Luna splash screen")
 
 With the official release of Java 8, Eclipse [announced support for Java 8 in Kepler and Luna](https://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_For_Kepler). In reality, that support is not provided out-of-the-box, especially if you want to use Maven.
 
