@@ -1,6 +1,6 @@
 ---
 title: "How To Get Your Own Web Address"
-layout: post
+layout: get_online
 permalink: "/get-online/domain"
 series: "Get Online"
 og_description: "A straightforward guide to getting your own .com" 

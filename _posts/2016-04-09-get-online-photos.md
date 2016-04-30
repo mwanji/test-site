@@ -2,7 +2,7 @@
 published: false
 title: "How To Take Care of Your Photos"
 permalink: "/get-online/photos"
-series: "Get Online"
+layout: get_online
 og_description: "Make sure you won't lose your pictures and can share them safely and easily"
 ---
 
