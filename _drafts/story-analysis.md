@@ -1,9 +1,15 @@
+---
+title: "Story Analysis"
+layout: post
+---
 
 Ramit Sethi has a great article called ["How to tell killer stories"](http://www.iwillteachyoutoberich.com/blog/how-to-tell-killer-stories). I have been applying similar principles, within the context of looking for a job, by helping a friend develop what Ramit calls the Story Toolbox. In the process, I came up with a number of questions that are useful in analysing the quality of a given story.
 
 ## Is there a narrative?
 
 Meaning, is it actually a story? Does it have a beginning, middle and end? Does it progress through an arc? Is there [a hero who encounters obstacles and overcomes them](http://jodyhedlund.blogspot.com/2012/08/obstacles-in-stories-3-ways-to-turn.html)? By employing literary story-telling techniques, you can make your story clearer and more engrossing.
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Hhk4N9A0oCA" frameborder="0" allowfullscreen></iframe>
 
 ## Are there concrete details?
 
