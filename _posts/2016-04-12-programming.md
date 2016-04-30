@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Started Programming"
-permalink: "programming"
+# permalink: "programming"
 date: 2016-04-12
 og_description: "The story of how I started programming"
 ---

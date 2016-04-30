@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How To Set Up Mailgun DNS Records on Digital Ocean"
-permalink: "mailgun-on-digital-ocean"
+# permalink: "mailgun-on-digital-ocean"
 date: 2016-04-07
 og_description: "Steps to avoid wasting time when connecting Mailgun to Digital Ocean."
 ---
