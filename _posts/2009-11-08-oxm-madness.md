@@ -7,7 +7,7 @@ og_image: "2009/oxm-madness/cookies-1024x768.jpg"
 
 <a href="{{site.baseurl}}/img/2009/oxm-madness/cookies-1024x768.jpg"><img title="how many layers?" src="{{site.baseurl}}/img/2009/oxm-madness/cookies-300x225.jpg" alt="how many layers?" width="300" height="225" /></a>
 
-<a href="http://www.ibm.com/developerworks/java/library/x-springXOM/index.html?ca=drs-">Meet the Object/XML mapping support in Spring</a> is an introduction to the <a title="Spring WS OXM documentation" href="http://static.springsource.org/spring-ws/site/reference/html/oxm.html">Marshaller and Unmarshaller interfaces</a> that have been rolled into Spring 3.0 from Spring WS.</p>
+[Meet the Object/XML mapping support in Spring](http://www.ibm.com/developerworks/java/library/x-springXOM/index.html?ca=drs-) is an introduction to the [Marshaller and Unmarshaller interfaces](http://static.springsource.org/spring-ws/site/reference/html/oxm.html) that have been rolled into Spring 3.0 from Spring WS.
 
 In summary:
 
@@ -18,7 +18,7 @@ In summary:
 
 To me, there are two levels of indirection too many here, already. Add another level if the application wraps this up in an XmlService interface and corresponding implementation.
 
-Furthermore, it turns out that the <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html">abstraction is leaky</a>! From the Spring WS docs:
+Furthermore, it turns out that the [abstraction is leaky]("http://www.joelonsoftware.com/articles/LeakyAbstractions.html)! From the Spring WS docs:
 
 > Although the marshal method accepts a plain object as its first parameter, most Marshaller implementations cannot handle arbitrary objects. Instead, an object class must be mapped in a mapping file, registered with the marshaller, or have a common base class. Refer to the further sections in this chapter to determine how your O/X technology of choice manages this.
 
@@ -30,10 +30,14 @@ I've been working with <a href="http://code.google.com/p/google-guice/">Guice</a
 
 Apply DAO design to XML and you'll find that a few simple methods are enough to decouple you from your OXM in the same way a DAO decouples your from your ORM. For example:
 
-<pre>void save(Object entity) <span style="color: #008000;">// serialises to XML</span>
-&lt;T&gt; T get(Class&lt;T&gt; myClass, String xml) <span style="color: #008000;">/* converts from XML to object of type T. Replace String with File or InputStream as needed */</span></pre>
-<p>Even if for some bizarre reason you need two OXM frameworks at the same time, the XML DAO should be injected with both OXM classes and decide which one to use based on the class of the object passed into the save() method.</p>
-<p>To be really fancy, apply the Interface Segregation Principle (<a href="http://www.objectmentor.com/resources/articles/isp.pdf">PDF</a>): have the XML DAO implement two interfaces and let clients choose the one they're interested in. These might be drawn from the problem domain (UserXmlDao, ArticleXmlDao) or the solution domain (CastorXmlDao, JaxbXmlDao) [1].</p>
+```java
+void save(Object entity) // serialises to XML</span>
+<T> T get(Class<T> myClass, String xml) /* converts from XML to object of type T. Replace String with File or InputStream as needed */
+```
+
+Even if for some bizarre reason you need two OXM frameworks at the same time, the XML DAO should be injected with both OXM classes and decide which one to use based on the class of the object passed into the save() method.
+
+To be really fancy, apply the Interface Segregation Principle (<a href="http://www.objectmentor.com/resources/articles/isp.pdf">PDF</a>): have the XML DAO implement two interfaces and let clients choose the one they're interested in. These might be drawn from the problem domain (UserXmlDao, ArticleXmlDao) or the solution domain (CastorXmlDao, JaxbXmlDao) [1].
 
 In conclusion: indirection has advantages, but it also has a cost. Using it indiscriminately for trivial things leads to <a href="http://97things.oreilly.com/wiki/index.php/Simplify_essential_complexity;_diminish_accidental_complexity">accidental complexity</a> and confusion through over-engineering.
 
